@@ -50,18 +50,16 @@ public class DataProvider {
 
     private static List<Ikan> initDataIkan(Context ctx) {
         List<Ikan> ikans = new ArrayList<>();
-        ikans.add(new Ikan("Guppy", "Amerika",
-                "memiliki bentuk tubuh seperti wanita yang mengenakan rok", R.drawable.ikan_guppy));
-        ikans.add(new Ikan("Cupang", "Indonesia ",
-                "adalah ikan yang berasal dari jenis ikan berukuran kecil dengan ukuran sekitar 2,5 cm dan dapat tumbuh hingga 12,5 cm", R.drawable.ikan_cupang));
-        ikans.add(new Ikan("Molly", "Brazil",
-                "memiliki perut yang buncit dan tubuh yang bundar", R.drawable.ikan_molly));
-        ikans.add(new Ikan("Platy", "Guiana",
-                "memiliki perut yang buncit dan tubuh yang bundar", R.drawable.ikan_platy));
-        ikans.add(new Ikan("Mas", "Asia",
-                "memiliki perut yang buncit dan tubuh yang bundar", R.drawable.ikan_mas));
-        ikans.add(new Ikan("Balasak", "Himalaya",
-                "memiliki warna-warna yang sangat cantik", R.drawable.ikan_balasak));
+        ikans.add(new Ikan("Clown", "Amerika Utara",
+                "Clownfish, juga dikenal sebagai Ikan Badut, ikan ini mempunyai nama keren yaitu Nemo yang berasal dari sebuah film", R.drawable.clown));
+        ikans.add(new Ikan("Cupang", "Amerika Selatan ",
+                "Ikan corydoras sering disebut sebagai ikan tikus karena ikan ini berenang seperti tikus berlari", R.drawable.ikan_cupang));
+        ikans.add(new Ikan("Discus", "Brazil",
+                "Garis-garis pada tubuh ikan ini digunakan sebagai mekanisme pertahanan diri dari ikan predator", R.drawable.discus));
+        ikans.add(new Ikan("Louhan", "Malaysia",
+                "Ikan ini sangat agresif terhadap ikan lain dan mereka kerap memakan ikan-ikan kecil di sekitarnya", R.drawable.louhan));
+        ikans.add(new Ikan("Oscars", "Amerika Utara",
+                "Ikan yang satu ini dikategorikan sebagai ikan yang tidak ramah dengan ikan jenis lain karena sifatnya yang agresif, namun tampilannya yang elok memang tidak terbantahkan", R.drawable.oscars));
         return ikans;
     }
 
